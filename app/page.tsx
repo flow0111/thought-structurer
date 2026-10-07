@@ -174,11 +174,35 @@ export default function Home() {
 
           <section className="min-h-[500px] rounded bg-white p-4 shadow">
             <h2 className="mb-3 text-xl font-semibold text-gray-900">
-              Outline
+              Thought Tree
             </h2>
             <ul className="list-disc pl-6 text-gray-700">
-              <li>Ideas will be organized here.</li>
-              <li>Questions will be separated later.</li>
+              <li>
+                Practicum
+                <ul className="list-disc pl-6">
+                  <li>
+                    Boundary
+                    <ul className="list-disc pl-6">
+                      <li>Follow-through</li>
+                      <li>Explain why</li>
+                    </ul>
+                  </li>
+                  <li>
+                    Science
+                    <ul className="list-disc pl-6">
+                      <li>Materials</li>
+                      <li>Observation</li>
+                    </ul>
+                  </li>
+                  <li>
+                    Communication
+                    <ul className="list-disc pl-6">
+                      <li>Positive guidance</li>
+                      <li>Questions</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
             </ul>
           </section>
         </div>
