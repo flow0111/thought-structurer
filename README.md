@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Thought Structurer
 
-## Getting Started
+## Vision
 
-First, run the development server:
+Thought Structurer is an AI-assisted thinking workspace.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Its purpose is not to transcribe speech or summarize meetings.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Its purpose is to help people think more clearly by organizing ideas while they are still speaking.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The user should be able to:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* speak naturally
+* watch ideas become structured in real time
+* discover connections between ideas
+* continue thinking from the generated structure
 
-## Learn More
+The AI is not the thinker.
 
-To learn more about Next.js, take a look at the following resources:
+The AI organizes thoughts so the human can think more deeply.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Core Workflow
 
-## Deploy on Vercel
+Speak
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+↓
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Transcript
+
+↓
+
+AI organizes thoughts
+
+↓
+
+Thought Tree updates
+
+↓
+
+User reads the structure
+
+↓
+
+User continues thinking
+
+---
+
+## Design Principles
+
+### 1. Thinking comes before documentation.
+
+The goal is better thinking, not better notes.
+
+### 2. Structure is more valuable than chronology.
+
+Ideas should be grouped by meaning rather than by the order they were spoken.
+
+### 3. The AI should reduce cognitive load.
+
+The user should spend less effort organizing thoughts and more effort developing them.
+
+### 4. The outline is a living structure.
+
+The AI should continuously refine and reorganize the structure instead of creating new summaries every time.
+
+---
+
+## Roadmap
+
+### Version 0.1
+
+* Basic UI
+
+### Version 0.2
+
+* Interactive buttons
+
+### Version 0.3
+
+* Browser speech recognition
+
+### Version 0.4
+
+* Real-time transcript
+
+### Version 0.5
+
+* AI-generated thought tree
+
+### Version 0.6
+
+* Continuous structure updates
+
+### Version 1.0
+
+A daily thinking workspace powered by AI.
